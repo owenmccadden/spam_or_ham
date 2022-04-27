@@ -29,6 +29,8 @@ const Form = () => {
 
     return (
         <Paper>
+            <h1>Spam or Ham?</h1>
+            <p>Enter a sample sms message to detect if it is spam or ham!</p>
             <TextField
                 onChange={onTextChange}
                 value={textValue}
