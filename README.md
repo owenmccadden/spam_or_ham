@@ -1,4 +1,4 @@
-# sms_spam_detection
+# Spam or Ham
 
 This repo contains the code for a simple web page that is used to present an sms spam prediction model. Submitting the form triggers a lambda function which classifies the input message as spam or ham (non-spam). The results are saved in a dynamoDB table.
 
